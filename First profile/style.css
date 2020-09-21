@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+header {
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 150px;
+}
+#bigbox {
+    background: rgb(226, 221, 221);
+    height: 1300px;
+    position : relative;
+    left: 200px;
+    top: 50px;
+    margin-bottom: 300px;
+}
+button {
+    background-color: transparent !important;
+    color: rgb(171, 167, 167);
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    padding: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+button:hover {
+    color: red;
+}
+.contact {
+    color: black;
+}
+#namebox {
+    font-size: 70px;
+    position: fixed;
+    left: 150px;
+    top: 200px;
+    z-index: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-left: 3px solid red;
+    padding-left: 8px;
+}
+#image {
+    width: 780px;
+    height: 520px;
+    position: absolute;
+    left: 130px;
+    top: 170px;
+}
+#job {
+    position: absolute;
+    top: 330px;
+    left: 720px;
+    transform-origin: 100% 100%;
+    transform:rotate(-270deg);
+    color:red;
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    border-left: 2px solid red;
+    padding-left: 7px;
+}
+#introduce {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 350px;
+    right: 500px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+#bottombox {
+    position: absolute;
+    bottom: -100px;
+    height: 40px;
+    left: 170px;
+    border-top: 2px solid red;
+}
+a {
+    color: red;
+    text-decoration: none !important;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    bottom: -250px;
+    left: 300px;
+}
+.git{
+    border-left: 2px solid red;
+}
